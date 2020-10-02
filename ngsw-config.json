@@ -23,12 +23,12 @@
   }],
   "dataGroups": [
     {
-      "name": "api-freshness",
+      "name": "api-performance",
       "urls": [
         "https://www.techiediaries.com/api/data.json"
       ],
       "cacheConfig": {
-        "strategy": "freshness",
+        "strategy": "performance",
         "maxSize": 100,
         "maxAge": "1d",
         "timeout": "10s"
